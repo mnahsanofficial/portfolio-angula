@@ -1,0 +1,17 @@
+nav {
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+  }
+  .brand {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  .nav-links li {
+    display: inline;
+    margin: 0 15px;
+  }
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+  }
+  

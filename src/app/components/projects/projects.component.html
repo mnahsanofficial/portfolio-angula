@@ -1,0 +1,13 @@
+<section id="projects" class="projects-section">
+    <h2>Projects</h2>
+    <p-galleria [value]="projects" [responsiveOptions]="responsiveOptions" containerClass="custom-galleria" [showThumbnails]="false">
+      <ng-template pTemplate="item" let-project>
+        <img [src]="project.image" [alt]="project.name">
+        <div class="project-info">
+          <h3>{{project.name}}</h3>
+          <p>{{project.description}}</p>
+        </div>
+      </ng-template>
+    </p-galleria>
+  </section>
+  

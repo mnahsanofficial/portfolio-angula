@@ -1,0 +1,10 @@
+.hero {
+    height: 100vh;
+    background: linear-gradient(135deg, #007acc, #00d8ff);
+    color: white;
+    text-align: center;
+  }
+  h1 {
+    font-size: 48px;
+  }
+  

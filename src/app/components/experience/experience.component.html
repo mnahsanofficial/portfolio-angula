@@ -1,0 +1,11 @@
+<section id="experience" class="experience-section">
+    <h2>Experience</h2>
+    <p-timeline [value]="experiences">
+      <ng-template pTemplate="content" let-experience>
+        <h3>{{experience.position}}</h3>
+        <p>{{experience.company}} - {{experience.date}}</p>
+        <p>{{experience.description}}</p>
+      </ng-template>
+    </p-timeline>
+  </section>
+  
